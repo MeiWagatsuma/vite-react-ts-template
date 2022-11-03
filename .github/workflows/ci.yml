@@ -100,7 +100,7 @@ jobs:
     # Manual deployment
     # See https://devblogs.microsoft.com/devops/i-need-manual-approvers-for-github-actions-and-i-got-them-now/
     environment:
-      name: MeiWagatsuma.github.io/vite-react-ts-template
+      name: MeiWagatsuma.github.io
       url: https://MeiWagatsuma.github.io/
     steps:
       - uses: actions/checkout@v2
